@@ -58,8 +58,8 @@ def send_to_wechat(title, desp):
     url = f"http://183.64.174.116:5002/api/?action={SEND_KEY}"
 
     data = {
-        "text": title,
-        "desp": desp,
+        "task_title": title,
+        "task_desc": desp,
         "channel": 9
     }
 
