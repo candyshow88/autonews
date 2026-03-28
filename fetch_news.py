@@ -55,7 +55,7 @@ def get_rss_news(source, hours=24):
 
 def send_to_wechat(title, desp):
     """通过Server酱推送消息到微信"""
-    url = f"https://sctapi.ftqq.com/{SEND_KEY}.send"
+    url = f"http://183.64.174.116:5002/api/?action={SEND_KEY}"
 
     data = {
         "text": title,
