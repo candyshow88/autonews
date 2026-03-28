@@ -60,7 +60,7 @@ def send_to_wechat(title, desp):
     data = {
         "task_title": title,
         "task_desc": desp,
-        "channel": 9
+        "channel": 1
     }
 
     try:
